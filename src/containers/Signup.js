@@ -55,6 +55,7 @@ export default class Signup extends Component {
         newUser
       });
     } catch (e) {
+      console.log(e);
       alert(e.message);
     }
 
